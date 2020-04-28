@@ -1,0 +1,120 @@
+.app{
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    border-radius: 10px;
+    overflow: hidden;
+    overflow-y: hidden;
+   
+    margin: 3px;
+    background-color: white;
+   
+}
+.Header {
+  border-bottom: solid;
+  border-color: black;
+  border-width: 2px;
+ 
+}
+.Sidebar {
+  border-right: solid;
+  border-color: black;
+  border-width: 2px;
+  width: 15%;
+  
+ 
+  padding-left:1px !important;
+  padding-right:0px !important;
+}
+.Content {
+  border-color: black;
+  border-width: 2px;
+  width: 80%;
+  position: relative;
+}
+.ColorBar {
+  width:5%;
+  border-right-style: solid;
+  border-width: 2px;
+}
+.btn-outline-secondary{
+ 
+  width: 100%;
+  border-radius: 0px !important;
+  /* background-color: ghostwhite !important; */
+  border: none !important;
+  height: 60px;
+  background-color:#f2f2f2 !important;
+  color:black !important;
+  margin-right:3px !important;
+  margin-bottom: 8px !important;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2) !important;
+  
+}
+.btn-outline-secondary:hover  {
+  background-color: #7f7f7f !important;
+}
+.btn-outline-secondary:focus  {
+  background-color: #7f7f7f !important;
+  color:white !important;
+}
+.btn-group{
+  display: block;
+  
+  width:100% !important;
+}
+.btn-weather{
+  width: 33.33% !important;
+  background-color: #deebf7;
+  height: 115px;
+  margin-top: 10px;
+  box-shadow:-3px 10px 10px rgba(0, 0, 0, 0.2) !important;
+}
+
+.row{
+  margin: 0px !important;
+}
+.btn-primary {
+  color: black !important;
+  background-color: white !important;
+  border-color: white !important;
+  width: 100% !important;
+}
+.dropdown-item{
+  background-color: white !important;
+  color:black !important;
+}
+.speedmeter {
+  max-width: 205px;
+  max-height: 110px;
+}
+
+.date-input {
+  border: solid;
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+  
+  margin-left: 5px;
+  margin-right: 5px;
+  text-align: center;
+}
+.date-input :focus {
+  border:solid;
+  border-color: white;
+}
+.gradient-area {
+  height: 100%;
+  background: linear-gradient(to bottom, #ff6d6a 0%,#fec359 33%,#76c175 67%,#54a0fe   100%)
+}
+.recharts-responsive-container {
+  height: 95% !important;
+}
+.CircleModal{
+  width: 250px !important;
+  height: 250px !important;
+  border-radius: 50% !important;
+}
+
+.UploadModal{
+  width: 100% !important;
+}
